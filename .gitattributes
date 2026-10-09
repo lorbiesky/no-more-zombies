@@ -1,0 +1,21 @@
+# Normalize EOL for all files that Git considers text files.
+* text=auto eol=lf
+
+# Keep Godot source resources readable and diffable.
+*.gd text diff
+*.godot text diff
+*.import text diff
+*.tscn text diff
+*.tres text diff
+*.svg text diff
+*.md text diff
+
+# Binary Godot resources and common exported assets.
+*.res binary
+*.scn binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.wav binary
+*.ogg binary

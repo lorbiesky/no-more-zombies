@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "godot-mcp": {
+      "command": "node",
+      "args": ["{{MCP_SERVER}}"],
+      "cwd": "{{PROJECT_ROOT}}",
+      "env": {
+        "GODOT_MCP_BRIDGE_PORT": "{{MCP_PORT}}"
+      }
+    }
+  }
+}

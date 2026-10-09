@@ -1,0 +1,9 @@
+[mcp_servers.godot-mcp]
+command = "node"
+args = ["{{MCP_SERVER}}"]
+cwd = "{{PROJECT_ROOT}}"
+env = { GODOT_MCP_BRIDGE_PORT = "{{MCP_PORT}}" }
+
+[agents]
+enabled = true
+max_concurrent_threads_per_session = 3

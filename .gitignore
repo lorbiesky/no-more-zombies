@@ -1,0 +1,37 @@
+# Godot editor state and import cache
+.godot/
+.import/
+
+# Node dependencies and generated local client configuration
+node_modules/
+.codex/config.toml
+.mcp.json
+
+# Local export configuration and generated build output
+export.cfg
+/build/
+/exports/
+/android/build/
+
+# Spec Kit machine-local state
+.specify/feature.json
+.specify/extensions/*/local-config.yml
+
+# Python caches
+__pycache__/
+*.pyc
+.coverage
+
+# Generated test and QA evidence
+/test-results/
+/reports/
+
+# Operating-system and editor artifacts
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# Keep project skills; ignore other local agent runtime data.
+.agents/*
+!.agents/skills/

@@ -1,0 +1,9 @@
+{
+  "name": "godot-sdd-template-tooling",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pinned local Godot MCP server for the project template",
+  "dependencies": {
+    "@letsagents/godot-mcp": "1.0.0"
+  }
+}

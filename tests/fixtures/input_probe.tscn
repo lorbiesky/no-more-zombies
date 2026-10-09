@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="Script" path="res://tests/fixtures/input_probe.gd" id="1_root"]
+[ext_resource type="Script" path="res://tests/fixtures/signal_probe.gd" id="2_signal"]
+
+[node name="InputProbe" type="Node"]
+script = ExtResource("1_root")
+
+[node name="SignalSource" type="Node" parent="."]
+script = ExtResource("2_signal")
